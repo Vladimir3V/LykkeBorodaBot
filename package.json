@@ -1,0 +1,30 @@
+{
+  "name": "lykkeborodabot",
+  "version": "0.1.0",
+  "description": "help bot for Boroda Chat",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vladimir3V/LykkeBorodaBot.git"
+  },
+  "keywords": [
+    "boroda"
+  ],
+  "author": "Vladimir Vakhrushev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vladimir3V/LykkeBorodaBot/issues"
+  },
+  "homepage": "https://github.com/Vladimir3V/LykkeBorodaBot#readme",
+  "dependencies": {
+    "forever": "^0.15.3",
+    "mysql": "^2.14.1",
+    "node-telegram-bot-api": "^0.28.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
